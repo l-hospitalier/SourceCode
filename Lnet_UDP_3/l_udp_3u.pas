@@ -1,3 +1,7 @@
+// This is a Lazarus(Object PASCAL)  source code for the control
+// of PICNIC ver2 (provide by tristate co. in JAPAN) using LNET package
+
+
 unit L_UDP_3U;
 {$mode objfpc}{$H+}{$CodePage UTF8}
 interface
