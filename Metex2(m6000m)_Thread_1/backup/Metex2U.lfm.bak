@@ -1,0 +1,97 @@
+object Form1: TForm1
+  Left = 570
+  Height = 594
+  Top = 196
+  Width = 234
+  HorzScrollBar.Page = 217
+  HorzScrollBar.Range = 217
+  VertScrollBar.Page = 714
+  VertScrollBar.Range = 714
+  Caption = 'Metex2'
+  ClientHeight = 594
+  ClientWidth = 234
+  Color = clBtnFace
+  Font.CharSet = SHIFTJIS_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -10
+  Font.Name = 'ＭＳ Ｐゴシック'
+  OnShow = FormShow
+  LCLVersion = '2.0.4.0'
+  Visible = True
+  object Button1: TButton
+    Left = 13
+    Height = 20
+    Top = 13
+    Width = 60
+    Caption = 'Connect'
+    Font.CharSet = SHIFTJIS_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -10
+    Font.Name = 'ＭＳ Ｐゴシック'
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 38
+    Height = 14
+    Top = 550
+    Width = 39
+    Caption = 'Label1'
+    Font.CharSet = SHIFTJIS_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -14
+    Font.Name = 'ＭＳ Ｐゴシック'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 14
+    Top = 570
+    Width = 39
+    Caption = 'Label2'
+    Font.CharSet = SHIFTJIS_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -14
+    Font.Name = 'ＭＳ Ｐゴシック'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button2: TButton
+    Left = 87
+    Height = 20
+    Top = 13
+    Width = 60
+    Caption = 'Start/Stop'
+    Font.CharSet = SHIFTJIS_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -10
+    Font.Name = 'ＭＳ Ｐゴシック'
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Memo1: TMemo
+    Left = 13
+    Height = 506
+    Top = 38
+    Width = 205
+    Alignment = taRightJustify
+    Font.CharSet = SHIFTJIS_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'ＭＳ Ｐゴシック'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Lines.Strings = (
+      ''
+    )
+    ParentFont = False
+    TabOrder = 2
+  end
+end

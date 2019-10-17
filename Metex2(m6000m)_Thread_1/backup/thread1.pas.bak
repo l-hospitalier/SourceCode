@@ -1,0 +1,68 @@
+unit Thread1;
+{$mode delphi}
+{$H+}
+
+interface
+uses
+  Classes;
+
+type
+
+  TMyThread = class(TThread)
+  public
+    constructor Create(CreateSuspended:Boolean);
+  private
+    { Private 宣言 }
+    procedure Disp_1;
+  protected
+    procedure Execute; override;
+  end;
+
+implementation
+  uses Windows, Metex2U, SysUtils;
+
+constructor TMyThread.Create(CreateSuspended: boolean);
+begin
+  inherited Create(True);
+  FreeOnTerminate:=True;
+end;
+
+procedure TMyThread.Disp_1;
+ var   k: byte;
+       St1: String;
+       RdData: Array[1..11] of Char;
+begin
+    ReadFile(hCommFileHandle, RdData, 11, ReadNum, @WriteOverLap);
+
+    for k:=1 to 11 do St1:=St1+Char(RdData[k]);
+        Delete(St1, 6, 6);
+
+        if (First=TRUE) then
+            begin
+               i := i mod 6 ;
+               if i = 0 then  St1 := '     * ' +St1 + ' Lux ';
+               if i = 1 then  St1 := '    *  ' +St1 + ' Lux ';
+               if i = 2 then  St1 := '   *   ' +St1 + ' Lux ';
+               if i = 3 then  St1 := '  *    ' +St1 + ' Lux ';
+               if i = 4 then  St1 := ' *     ' +St1 + ' Lux ';
+               if i = 5 then  St1 := '*      ' +St1 + ' Lux ';
+               Form1.Memo1.Append(St1);
+               Inc(i);
+             end;
+        First := not First;
+        sleep(450);
+end;
+
+procedure TMyThread.Execute;
+begin
+  { ToDo : スレッドとして実行したいコードをこの下に記述してください }
+  repeat
+    //sleep(450);
+    Synchronize(@Disp_1)
+
+  until terminated;
+end;
+
+
+end.
+
