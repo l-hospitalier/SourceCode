@@ -1,7 +1,0 @@
-D:\Visual C# 2010\C# Serial\Metex6000M_11\Metex6000M_11\bin\Debug\Metex6000M_11.exe
-D:\Visual C# 2010\C# Serial\Metex6000M_11\Metex6000M_11\bin\Debug\Metex6000M_11.pdb
-D:\Visual C# 2010\C# Serial\Metex6000M_11\Metex6000M_11\obj\Debug\Metex6000M_11.Form1.resources
-D:\Visual C# 2010\C# Serial\Metex6000M_11\Metex6000M_11\obj\Debug\Metex6000M_11.Properties.Resources.resources
-D:\Visual C# 2010\C# Serial\Metex6000M_11\Metex6000M_11\obj\Debug\Metex6000M_11.csproj.GenerateResource.Cache
-D:\Visual C# 2010\C# Serial\Metex6000M_11\Metex6000M_11\obj\Debug\Metex6000M_11.exe
-D:\Visual C# 2010\C# Serial\Metex6000M_11\Metex6000M_11\obj\Debug\Metex6000M_11.pdb
