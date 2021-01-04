@@ -58,6 +58,7 @@ namespace UDP_3
                 else if (m == 7) { textBox8.Text = temp.ToString("f2"); }
             m++;
         }
+       
         // Udp非同期通信のコールバック
         void ReceiveCallback(IAsyncResult ar)
         {
@@ -92,8 +93,8 @@ namespace UDP_3
             //    if (this.InvokeRequired)
             //        Invoke((MethodInvoker)delegate { SetText(); });
             //    else SetText();
-            // textBox24.Text = "RJ = " + status[0].ToString();
-            //textBox16.Text = "RE = " + status[1].ToString();
+            //    textBox24.Text = "RJ = " + status[0].ToString();
+            //    textBox16.Text = "RE = " + status[1].ToString();
         }
 
         private void RJ_SET(byte n)
@@ -278,12 +279,13 @@ namespace UDP_3
             textBox9.Text = "";
             textBox10.Text = "";
         }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             comclear();
             textBox9.Text = st1;
             textBox10.Text = st2;
-         }
+        }
         private void button4_Click(object sender, EventArgs e)  //Restore Default
         {
             LcdSock.Connect(lcdEP);
