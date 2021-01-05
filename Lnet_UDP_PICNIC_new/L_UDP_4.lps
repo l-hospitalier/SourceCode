@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="L_UDP_4.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos Y="20"/>
+        <UsageCount Value="43"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="l_udp_4u.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="L_UDP_4U"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="74"/>
+        <CursorPos X="71" Y="86"/>
+        <UsageCount Value="43"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\FFT_PASCAL.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="89"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="l_udp_4u.lfm"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="29" HistoryIndex="28">
+      <Position1>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="83" Column="65" TopLine="62"/>
+      </Position1>
+      <Position2>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="84" Column="65" TopLine="63"/>
+      </Position2>
+      <Position3>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="85" Column="65" TopLine="64"/>
+      </Position3>
+      <Position4>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="84" Column="65" TopLine="63"/>
+      </Position4>
+      <Position5>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="85" Column="65" TopLine="64"/>
+      </Position5>
+      <Position6>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="84" Column="65" TopLine="63"/>
+      </Position6>
+      <Position7>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="87" Column="65" TopLine="66"/>
+      </Position7>
+      <Position8>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="90" Column="65" TopLine="69"/>
+      </Position8>
+      <Position9>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="89" Column="65" TopLine="68"/>
+      </Position9>
+      <Position10>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="88" Column="65" TopLine="67"/>
+      </Position10>
+      <Position11>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="87" Column="65" TopLine="66"/>
+      </Position11>
+      <Position12>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="86" Column="65" TopLine="65"/>
+      </Position12>
+      <Position13>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="85" Column="65" TopLine="64"/>
+      </Position13>
+      <Position14>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="84" Column="65" TopLine="63"/>
+      </Position14>
+      <Position15>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="85" Column="65" TopLine="64"/>
+      </Position15>
+      <Position16>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="86" Column="65" TopLine="65"/>
+      </Position16>
+      <Position17>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="87" Column="65" TopLine="66"/>
+      </Position17>
+      <Position18>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="88" Column="65" TopLine="67"/>
+      </Position18>
+      <Position19>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="140" Column="8" TopLine="121"/>
+      </Position19>
+      <Position20>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="141" Column="71" TopLine="125"/>
+      </Position20>
+      <Position21>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="139" Column="41" TopLine="122"/>
+      </Position21>
+      <Position22>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="145" Column="43" TopLine="125"/>
+      </Position22>
+      <Position23>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="139" Column="26" TopLine="125"/>
+      </Position23>
+      <Position24>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="140" Column="26" TopLine="126"/>
+      </Position24>
+      <Position25>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="139" Column="26" TopLine="125"/>
+      </Position25>
+      <Position26>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="113" Column="16" TopLine="87"/>
+      </Position26>
+      <Position27>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="141" Column="15" TopLine="128"/>
+      </Position27>
+      <Position28>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="146" Column="58" TopLine="119"/>
+      </Position28>
+      <Position29>
+        <Filename Value="l_udp_4u.pas"/>
+        <Caret Line="430" TopLine="416"/>
+      </Position29>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
